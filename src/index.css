@@ -5,9 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(235, 236, 240);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.cards {
+  margin: 20px;
+  width: 280px;
+}
+
+.countryPage {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.symbols,
+.info,
+.geography {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 20px;
+  text-align: left;
+  width: 40vw;
+  height: 45vh;
+  flex-grow: 1;
+}
+
+h1 {
+  flex-grow: 2;
+}
+
+img {
+  width: 100%;
+}
+
+div h3 {
+  text-align: center;
+}
+
+.about {
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(255, 142, 127);
 }
